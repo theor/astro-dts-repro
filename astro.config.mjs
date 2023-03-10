@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import {TEST} from './src/test';
+import {TEST} from './test';
 // https://astro.build/config
-console.log(TEST);
 export default defineConfig({});
